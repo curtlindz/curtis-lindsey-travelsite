@@ -1,6 +1,8 @@
 * {
     font-family: 'Verdana';
     text-decoration: none;
+    padding:0;
+    margin:0;
 }
 
 .nav-bar {
@@ -8,6 +10,7 @@
     background-color: #FFFFFF;
     color:black;
     justify-content: space-between;
+    padding: 1rem 0;
 }
 
 .nav-bar__logo {
@@ -23,7 +26,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 5.7em 0 0;
+    padding: 0 6em 0 0;
     font-size: 0.9rem;
 }
 
@@ -54,6 +57,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 4rem 0;
+    margin:0;
 }
 
 .hero__content {
@@ -64,12 +68,13 @@
 .hero__content h2 {
     font-size: 2.25rem;
     color:#335576;
+    padding-bottom:2rem;
 }
 
 .hero__content p {
     color:#335576;
     font-size:0.875rem;
-    padding-bottom:1rem;
+    padding-bottom:2rem;
 }
 
 .hero__content button {
@@ -89,12 +94,21 @@
 .carousel {
     display:flex;
     justify-content: space-evenly;
-    padding: 0 10rem;
+    padding: 0 10rem 3rem 10rem;
 }
 
 .carousel__card {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
     width:260px;
     height:389.96px;
+    border-radius:5px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    box-shadow: 0px 4px 4px 20%;
+    position:relative;
+    background-color: white;
 }
 
 .carousel__card img {
@@ -103,12 +117,56 @@
 
 }
 
+#carousel__card h2 {
+    position:absolute;
+    bottom:2px;
+    right:20px;
+    color:white;
+}
+
+.carousel__card h3 {
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    text-align:center;
+}
+
+.carousel__card p {
+    text-align:center;
+    background-color: #FEFAF5;
+
+}
+
 .footer {
     display:flex;
     justify-content:space-evenly;
+    background-color:#FEFAF5;
+    color:#335576;
+    padding: 50px 100px;
+    font-size: 0.9rem;
 }
 
 .footer__content--block {
     display:flex;
     justify-content:space-between;
+}
+
+.footer__content--subtitle {
+    color:#DB7A4E;
+    font-size: 0.6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.75rem;
+}
+
+.footer__content--text {
+    font-size: 0.85rem;
+}
+
+.footer__content--block img {
+    width:20px;
+    height:20px;
+    padding-top:2rem;
+}
+
+.footer__content--portion {
+    margin-right:25px;
 }

@@ -1,0 +1,13 @@
+.hawaii {
+    background-image: url("../assets/images/hawaii.jpg");
+    background-size:cover;
+    background-position-y: 52%;
+    padding:4.55rem 0;
+    margin:0;
+}
+
+.hawaii h2 {
+    color:white;
+    font-size:4rem;
+    padding: 0 0 3rem 5.25rem;
+}

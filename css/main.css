@@ -1,9 +1,9 @@
-.recommendations {
-    padding: 2rem 0;
-}
+
 
 .recommendations h2 {
     font-size:1.3rem;
     color: #335576;
     padding-left: 5.25rem;
+    padding-top:3rem;
+    padding-bottom:2rem;
 }
