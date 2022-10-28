@@ -7,6 +7,9 @@
 
 .nav-bar {
     display: flex;
+    position:fixed;
+    width:100%;
+    z-index:100;
     background-color: #FFFFFF;
     color:black;
     justify-content: space-between;
@@ -32,6 +35,7 @@
 
 .nav-bar__destinations a {
     color: black;
+
 }
 
 .nav-bar__destinations ul {
@@ -49,6 +53,13 @@
 
 .nav-bar__destinations--links li {
     margin-left: 1.1rem;
+}
+
+.nav-bar__destinations--underline a {
+    border-bottom:solid;
+    border-bottom-color:#DB7A4E;
+    border-bottom-width: 3px;
+    padding:0 0 7px 0;
 }
 
 .hero {
@@ -82,7 +93,7 @@
     color:white;
     border:none;
     padding:0.5rem 2.55rem;
-    border-radius: 0 50% 0  0;
+    border-radius: 20px;
 }
 
 .hero__image img {
@@ -94,19 +105,19 @@
 .carousel {
     display:flex;
     justify-content: space-evenly;
-    padding: 0 10rem 3rem 10rem;
+    padding: 0 11rem 3rem 11rem;
 }
 
 .carousel__card {
     display:flex;
     flex-direction:column;
     justify-content: space-evenly;
-    width:260px;
+    width:250px;
     height:389.96px;
     border-radius:5px;
     border-color: rgba(0, 0, 0, 0.2);
     border-width: 1px;
-    box-shadow: 0px 4px 4px 20%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     position:relative;
     background-color: white;
 }
@@ -119,20 +130,24 @@
 
 #carousel__card h2 {
     position:absolute;
-    bottom:2px;
+    bottom:1px;
     right:20px;
     color:white;
 }
 
 .carousel__card h3 {
-    border-bottom-width: 2px;
+    border-bottom-style: solid;
     border-bottom-color: black;
+    border-bottom-width: 2px;
     text-align:center;
+    margin: 0 1rem;
 }
 
 .carousel__card p {
     text-align:center;
     background-color: #FEFAF5;
+    padding:1rem 0;
+    margin: 0 1rem;
 
 }
 
@@ -162,8 +177,8 @@
 }
 
 .footer__content--block img {
-    width:20px;
-    height:20px;
+    width:auto;
+    height:22px;
     padding-top:2rem;
 }
 

@@ -11,3 +11,31 @@
     font-size:4rem;
     padding: 0 0 3rem 5.25rem;
 }
+
+.iceland {
+    background-image: url("../assets/images/iceland.jpg");
+    background-size:cover;
+    background-position-y: 52%;
+    padding:4.55rem 0;
+    margin:0;
+}
+
+.iceland h2 {
+    color:white;
+    font-size:4rem;
+    padding: 0 0 3rem 5.25rem;
+}
+
+.greece {
+    background-image: url("../assets/images/greece.jpg");
+    background-size:cover;
+    background-position-y: 52%;
+    padding:4.55rem 0;
+    margin:0;
+}
+
+.greece h2 {
+    color:white;
+    font-size:4rem;
+    padding: 0 0 3rem 5.25rem;
+}
